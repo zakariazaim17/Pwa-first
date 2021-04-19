@@ -1,0 +1,26 @@
+body {
+  font-family: robotoregular;
+}
+
+/* Make content area fill the entire browser window */
+html,
+.fullscreen {
+  display: flex;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-image: url("../images/hel.png");
+}
+
+/* Center the content in the browser window */
+.container {
+  margin: auto;
+  text-align: center;
+  width: 80%;
+}
+
+.title {
+  font-size: 3rem;
+  color: aqua;
+}
